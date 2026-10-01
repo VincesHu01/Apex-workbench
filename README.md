@@ -117,7 +117,7 @@ Three ways to run it:
 **2. Open the file directly**
 
 ```bash
-git clone https://github.com/VincesHu01/apex-workbench.git
+git clone https://github.com/VincesHu01/Apex-workbench.git
 cd apex-workbench
 open index.html          # macOS
 # or just double-click index.html
@@ -170,7 +170,7 @@ Neo-Brutalism, applied consistently:
 ## Project Structure
 
 ```
-apex-workbench/
+Apex-workbench/
 ├── index.html           # the entire application (markup + styles + logic)
 ├── README.md
 ├── .gitignore
