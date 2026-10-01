@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="780" viewBox="0 0 1200 780" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Heiti SC, sans-serif">
+  <defs>
+    <style>
+      .t{font-size:15px;font-weight:700;fill:#0A0A0A;}
+      .s{font-size:12px;font-weight:600;fill:#0A0A0A;}
+      .lbl{font-size:13px;font-weight:700;fill:#0A0A0A;}
+      .hd{font-size:26px;font-weight:800;fill:#0A0A0A;}
+      .sec{font-size:17px;font-weight:800;fill:#0A0A0A;}
+      .box{stroke:#000;stroke-width:3;}
+      .sm{stroke:#000;stroke-width:2.5;}
+    </style>
+  </defs>
+
+  <rect width="1200" height="780" fill="#F5F5F0"/>
+
+  <!-- Title bar -->
+  <rect x="40" y="26" width="1120" height="62" fill="#FFE135" class="box"/>
+  <text x="60" y="66" class="hd">APEX 个人工作台 · 功能模块架构</text>
+  <text x="1140" y="66" text-anchor="end" class="s">单文件 · 零框架 · 纯本地</text>
+
+  <!-- Section 1: 七个功能页签 -->
+  <text x="40" y="128" class="sec">①  七个功能页签（底部导航）</text>
+
+  <rect x="40"  y="144" width="150" height="86" rx="5" fill="#FF1493" class="sm"/>
+  <text x="115" y="180" text-anchor="middle" class="lbl">总览</text>
+  <text x="115" y="202" text-anchor="middle" class="s">今日提醒 · 技能卡</text>
+
+  <rect x="202" y="144" width="150" height="86" rx="5" fill="#FFE135" class="sm"/>
+  <text x="277" y="180" text-anchor="middle" class="lbl">记录</text>
+  <text x="277" y="202" text-anchor="middle" class="s">七类内容增删改</text>
+
+  <rect x="364" y="144" width="150" height="86" rx="5" fill="#4FA8FF" class="sm"/>
+  <text x="439" y="180" text-anchor="middle" class="lbl">目标</text>
+  <text x="439" y="202" text-anchor="middle" class="s">里程碑 · 进度条</text>
+
+  <rect x="526" y="144" width="150" height="86" rx="5" fill="#C07BFF" class="sm"/>
+  <text x="601" y="180" text-anchor="middle" class="lbl">知识</text>
+  <text x="601" y="202" text-anchor="middle" class="s">标签筛选 · 搜索</text>
+
+  <rect x="688" y="144" width="150" height="86" rx="5" fill="#9BE564" class="sm"/>
+  <text x="763" y="180" text-anchor="middle" class="lbl">时间线</text>
+  <text x="763" y="202" text-anchor="middle" class="s">按日期聚合回溯</text>
+
+  <rect x="850" y="144" width="150" height="86" rx="5" fill="#FFA53D" class="sm"/>
+  <text x="925" y="180" text-anchor="middle" class="lbl">实习回溯</text>
+  <text x="925" y="202" text-anchor="middle" class="s">二级标签 · 叠放</text>
+
+  <rect x="1012" y="144" width="148" height="86" rx="5" fill="#FFFFFF" class="sm"/>
+  <text x="1086" y="180" text-anchor="middle" class="lbl">历史透视</text>
+  <text x="1086" y="202" text-anchor="middle" class="s">日历 · 多维归类</text>
+
+  <!-- Section 2: 记录的七种内容类型 -->
+  <text x="40" y="282" class="sec">②  「记录」支持的七种内容类型</text>
+
+  <rect x="40"  y="298" width="150" height="62" rx="5" fill="#FFFFFF" class="sm"/>
+  <text x="115" y="336" text-anchor="middle" class="lbl">待办</text>
+
+  <rect x="202" y="298" width="150" height="62" rx="5" fill="#FFFFFF" class="sm"/>
+  <text x="277" y="336" text-anchor="middle" class="lbl">饮食</text>
+
+  <rect x="364" y="298" width="150" height="62" rx="5" fill="#FFFFFF" class="sm"/>
+  <text x="439" y="336" text-anchor="middle" class="lbl">阅读</text>
+
+  <rect x="526" y="298" width="150" height="62" rx="5" fill="#FFFFFF" class="sm"/>
+  <text x="601" y="336" text-anchor="middle" class="lbl">灵感</text>
+
+  <rect x="688" y="298" width="150" height="62" rx="5" fill="#FFFFFF" class="sm"/>
+  <text x="763" y="336" text-anchor="middle" class="lbl">复盘</text>
+
+  <rect x="850" y="298" width="150" height="62" rx="5" fill="#FFFFFF" class="sm"/>
+  <text x="925" y="336" text-anchor="middle" class="lbl">健康</text>
+
+  <rect x="1012" y="298" width="148" height="62" rx="5" fill="#FFFFFF" class="sm"/>
+  <text x="1086" y="336" text-anchor="middle" class="lbl">实习回溯</text>
+
+  <!-- arrows from section1 record box to section2 -->
+  <path d="M277 230 L277 292" stroke="#000" stroke-width="3" marker-end="url(#a)"/>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 z" fill="#000"/></marker></defs>
+
+  <!-- Section 3: 核心能力 -->
+  <text x="40" y="424" class="sec">③  核心能力</text>
+
+  <rect x="40"  y="440" width="268" height="112" rx="5" fill="#FFE135" class="sm"/>
+  <text x="60"  y="472" class="lbl">🌙 白天 / 黑夜模式</text>
+  <text x="60"  y="496" class="s">19:00–07:00 自动切暗色</text>
+  <text x="60"  y="518" class="s">可手动锁定浅色或深色</text>
+  <text x="60"  y="540" class="s">偏好随数据一同保存</text>
+
+  <rect x="324" y="440" width="268" height="112" rx="5" fill="#9BE564" class="sm"/>
+  <text x="344" y="472" class="lbl">⏰ 到点未填写提醒</text>
+  <text x="344" y="496" class="s">每类内容独立设定时间</text>
+  <text x="344" y="518" class="s">饮食按早/午/晚/加餐分设</text>
+  <text x="344" y="540" class="s">目标采用每周宽松节奏</text>
+
+  <rect x="608" y="440" width="268" height="112" rx="5" fill="#FFA53D" class="sm"/>
+  <text x="628" y="472" class="lbl">🗂 拖拽叠放分组</text>
+  <text x="628" y="496" class="s">跨日期合并实习回溯卡片</text>
+  <text x="628" y="518" class="s">文件夹式命名 · 可移出</text>
+  <text x="628" y="540" class="s">支持解散分组还原</text>
+
+  <rect x="892" y="440" width="268" height="112" rx="5" fill="#4FA8FF" class="sm"/>
+  <text x="912" y="472" class="lbl">📱 响应式适配</text>
+  <text x="912" y="496" class="s">手机端与 PC 分屏优化</text>
+  <text x="912" y="518" class="s">排序型按钮横向滚动保序</text>
+  <text x="912" y="540" class="s">窄屏表单与操作堆叠</text>
+
+  <!-- Section 4: 数据层 -->
+  <text x="40" y="618" class="sec">④  数据持久层</text>
+
+  <rect x="40" y="634" width="1120" height="76" rx="5" fill="#0A0A0A" class="box"/>
+  <text x="64" y="670" font-size="16" font-weight="800" fill="#FFE135">浏览器本地存储 localStorage</text>
+  <text x="64" y="694" font-size="13" font-weight="600" fill="#FFFFFF">全部数据仅保存在你自己的浏览器中 · 不上传服务器 · 支持一键重置示例数据</text>
+
+  <text x="40" y="742" class="s">技术栈：原生 HTML + CSS + JavaScript（无框架、无构建、无依赖） · 设计风格：Neo-Brutalism 新粗野主义（糖果色 + 纯黑硬边框硬阴影）</text>
+</svg>

@@ -1,0 +1,8 @@
+# Local agent workspace data (not part of the project)
+.workbuddy/
+
+# Temporary file used only for generating screenshots
+_shot.html
+
+# macOS
+.DS_Store
