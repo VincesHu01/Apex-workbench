@@ -10,7 +10,7 @@
 > **APEX** is a single-file, zero-framework personal workbench for logging your everyday life — todos, meals, reading, ideas, reviews, health and internship notes — together with goals, a knowledge base, a timeline and multi-dimensional history views.
 > It is a **life database, not a to-do app**: every entry stays in your own browser, and the value comes from looking back.
 
-**Live demo:** <https://db986af967964c7287ce11d03fa3f370.app.workbuddy.link>
+**[Open the live workbench](https://vinceshu01.github.io/Apex-workbench/)** — no sign-in, installation, or build step required.
 
 ---
 
@@ -112,7 +112,7 @@ Three ways to run it:
 
 **1. Open the live demo**
 
-<https://db986af967964c7287ce11d03fa3f370.app.workbuddy.link>
+<https://vinceshu01.github.io/Apex-workbench/>
 
 **2. Open the file directly**
 
